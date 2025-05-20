@@ -1,15 +1,18 @@
 **Data Warehouse Exploration & Hadoop Integration Report**
 
 **Objective**
-This project focuses on exploring publicly available datasets from different data-
-warehouse repositories and understanding how to interact with, clean, and analyze raw
-data. The exercise also involves experimenting with Hadoop to process datasets efficiently.
+This project focuses on exploring publicly available datasets from different data-warehouse repositories and understanding how to interact with, clean, and analyze raw data. The exercise also involves experimenting with Hadoop to process datasets efficiently.
 
 **Technologies Used**
+
 •	Apache Hadoop: Used for distributed storage (though primarily interacted with locally in this setup) and for executing MapReduce jobs (via MRJob).
+
 •	Apache Spark: Employed for interactive data analysis and running SQL queries on the dataset, offering more flexibility and speed compared to traditional MapReduce for iterative analysis.
+
 •	Python: Used for scripting, orchestrating the data processing steps, and writing the MRJob script.
+
 •	MRJob: A Python library for writing MapReduce jobs that can run on Hadoop.
+
 •	PySpark: The Python API for Apache Spark.
 
 **Data Source**
