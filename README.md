@@ -56,9 +56,13 @@ _- Preprocessing:_
  
 Based on the execution of the data analysis steps, several key findings and observations were made regarding the data, the technologies used, and the insights gained:
 
-•	Data Complexity: As is common with real-world datasets, the WFP food prices data exhibited typical complexities. We observed:
+•	Data Complexity: As is common with real-world datasets, the WFP food prices data exhibited typical complexities. 
+We observed:
+
 •	Inconsistent Values: Data might contain variations in spelling, capitalization, or formatting for country and commodity names.
+
 •	Missing Fields: Some records may have missing price information or other relevant details.
+
 •	Preprocessing Requirements: Handling inconsistencies and missing values would be necessary for more robust analysis. The `MRJob` script included a basic `try-except` block to skip malformed rows, demonstrating the need for data cleaning considerations.
 
 **Importance of Schema:** 
