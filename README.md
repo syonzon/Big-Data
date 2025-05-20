@@ -38,6 +38,7 @@ data.
 **2. Loading Dataset into Hadoop**
 
 _- Preprocessing:_
+
 1.	Environment Setup: Downloading and setting up Hadoop and PySpark.
 2.	Data Acquisition: Downloading the `wfpvam_foodprices.csv` dataset.
 3.	Data Cleaning: Convert the dataset to clean .csv (did not required).
@@ -46,7 +47,9 @@ _- Preprocessing:_
 6.	Data Analysis (PySpark):
    
        •	Loading the data into a Spark DataFrame.
+  	
        •	Performing exploratory data analysis (e.g., showing schema, sample data).
+  	
        •	Running Spark SQL queries to answer specific analytical questions, such as counting records, calculating average prices by country and commodity, and analyzing price trends for specific items in                  particular regions.
  
  **Findings & Observations**
